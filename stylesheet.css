@@ -19,42 +19,59 @@ h2 {
 h3 {
     color: #FFFFCC;
     font-size: 40px;
+    margin: 5px;
     padding-top: 25px;
     text-align: center;
 }
 
-.wrapper {
+#wrapper {
     width: 80%;
+    margin: 0 auto;
 }
 
 #games {
     background-color: black;
-    height: 350px;
     margin: 1%;
+}
+
+#games-wrapper {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+}
+
+#games-wrapper p {
+    margin: 5px auto 5px auto;
 }
 
 .people {
     background-color: black;
     display: inline-block;
-    height: 300px;
     margin: 1%;
+    position: relative;
     width: 31%;
 }
 
 .rankings {
     color: #FFFFCC;
-    display: inline-block;
     font-size: 75px;
     padding-left: 20px;
+    position: absolute;
     text-align: left;
+    top: -60px;
 }
 
 .name {
     color: #FFFFCC;
-    display: inline-block;
     font-size: 45px;
-    margin-left: 50px;
-    text-align: right;
+    margin: 0;
+    text-align: center;
+}
+
+.record {
+    color: #FFFFCC;
+    font-size: 35px;
+    margin: 0;
 }
 
 .Won-Loss {
@@ -72,9 +89,8 @@ p {
 }
 
 img {
-    float: left;
+    display: inline-block;
     height: 350px;
-    width: 33%;
 }
 
 #line-left {
