@@ -1,0 +1,109 @@
+html {
+    background-color: #8E0000;
+}
+
+h1 {
+    color: #FFFFCC;
+    font-size: 85px;
+    text-align: center;
+}
+
+h2 {
+    color: #FFFFCC;
+    font-size: 65px;
+    text-align: center;
+}
+
+h3 {
+    color: #FFFFCC;
+    font-size: 40px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.wrapper {
+    width: 80%;
+}
+
+#games {
+    background-color: black;
+    height: 350px;
+    margin: 2%;
+    width: 95%;
+}
+
+.people {
+    background-color: black;
+    display: inline-block;
+    height: 300px;
+    margin: 1%;
+    width: 31%;
+}
+
+.rankings {
+    color: #FFFFCC;
+    display: inline-block;
+    font-size: 75px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.name {
+    color: #FFFFCC;
+    display: inline-block;
+    font-size: 45px;
+    margin-left: 50px;
+    text-align: right;
+}
+
+.Won-Loss {
+    color: #8E0000;
+    font-size: 65px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+p {
+    color: #FFFFCC;
+    font-size: 25px;
+    text-align: center;
+}
+
+img {
+    float: left;
+    height: 350px;
+    width: 33%;
+}
+
+#line-left {
+    background-color: #FFFFCC;
+    height: 5px;
+    margin-top: -250px;
+    width: 31%;
+    float: left;
+}
+
+#line-right {
+    background-color: #FFFFCC;
+    height: 5px;
+    margin-top: -250px;
+    width: 31%;
+    float: right;
+}
+
+#line-left2 {
+    background-color: #FFFFCC;
+    height: 15px;
+    margin-top: -225px;
+    width: 31%;
+    float: left;
+}
+
+#line-right2 {
+    background-color: #FFFFCC;
+    height: 15px;
+    margin-top: -225px;
+    width: 31%;
+    float: right;
+}
